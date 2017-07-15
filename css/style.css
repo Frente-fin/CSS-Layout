@@ -403,6 +403,8 @@ a {
   Media Queries 
 ==================================== */
 @media (min-width: 768px) {
+  .wrap {
+    min-height: calc(100vh - 89px); }
   .container {
     width: 70%;
     max-width: 1000px;
